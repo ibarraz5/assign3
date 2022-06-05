@@ -28,7 +28,7 @@ task TCPClient(type: JavaExec) {
 
   classpath = sourceSets.main.runtimeClasspath
 
-  main = 'tcp.TCP_ServerClient.Client'
+  main = 'TCP_ServerClient.Client'
   standardInput = System.in
 }
 
